@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Liip_ConfigSearch>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Liip_ConfigSearch>
+    </modules>
+</config>

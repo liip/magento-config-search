@@ -1,0 +1,15 @@
+<?php if ($this->hasFocusFieldSet()): ?>
+<script type="text/javascript">
+    document.observe("dom:loaded", function() {
+        var focusFieldSetElement = $('<?php echo $this->getFocusFieldSet(); ?>');
+        if (false == focusFieldSetElement.up(1).hasClassName('active')) {
+            focusFieldSetElement.click();
+        }
+        <?php if ($this->hasFocusElementId()): ?>
+        var el = $('<?php echo $this->getFocusElementId(); ?>');
+        el.focus();
+        new Effect.Highlight(el);
+        <?php endif; ?>
+    });
+</script>
+<?php endif; ?>
