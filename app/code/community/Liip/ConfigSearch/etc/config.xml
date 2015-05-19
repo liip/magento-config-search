@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Liip_ConfigSearch>
-            <version>1.0.0.0</version>
+            <version>1.0.0</version>
         </Liip_ConfigSearch>
     </modules>
     <global>
